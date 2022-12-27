@@ -1,0 +1,176 @@
+# Reading pref.tcl
+radix define 7segHex { 
+    "7'b1000000" "0" -color "white",
+    "7'b1111001" "1" -color "white",
+    "7'b0100100" "2" -color "white",
+    "7'b0110000" "3" -color "white",
+    "7'b0011001" "4" -color "white",
+    "7'b0010010" "5" -color "white",
+    "7'b0000010" "6" -color "white",
+    "7'b1111000" "7" -color "white",
+    "7'b0000000" "8" -color "white",
+    "7'b0010000" "9" -color "white",
+    "7'b0001000" "A" -color "white",
+    "7'b0000011" "B" -color "white",
+    "7'b1000110" "C" -color "white",
+    "7'b0100001" "D" -color "white",
+    "7'b0000110" "E" -color "white",
+    "7'b0001110" "F" -color "white",
+    "7'b1111111" "off" -color "white",
+
+    -default binary
+}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:07 on Nov 18,2022
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 15:07:07 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:07 on Nov 18,2022
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 15:07:07 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:07 on Nov 18,2022
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 15:07:07 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:07 on Nov 18,2022
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 15:07:08 on Nov 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:08 on Nov 18,2022
+# vlog -reportprogress 300 ./UPC.sv 
+# -- Compiling module UPC
+# 
+# Top level modules:
+# 	UPC
+# End time: 15:07:08 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:08 on Nov 18,2022
+# vlog -reportprogress 300 ./simple.sv 
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# End time: 15:07:08 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:08 on Nov 18,2022
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 15:07:08 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:08 on Nov 18,2022
+# vlog -reportprogress 300 ./runwaylights.sv 
+# -- Compiling module runwaylights
+# -- Compiling module runwaylights_testbench
+# 
+# Top level modules:
+# 	runwaylights_testbench
+# End time: 15:07:08 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:08 on Nov 18,2022
+# vlog -reportprogress 300 ./userin.sv 
+# -- Compiling module userin
+# 
+# Top level modules:
+# 	userin
+# End time: 15:07:09 on Nov 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:09 on Nov 18,2022
+# vlog -reportprogress 300 ./playfield.sv 
+# -- Compiling module playfield
+# 
+# Top level modules:
+# 	playfield
+# End time: 15:07:09 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:09 on Nov 18,2022
+# vlog -reportprogress 300 ./victory.sv 
+# -- Compiling module victory
+# 
+# Top level modules:
+# 	victory
+# End time: 15:07:09 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:09 on Nov 18,2022
+# vlog -reportprogress 300 ./comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 15:07:09 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:09 on Nov 18,2022
+# vlog -reportprogress 300 ./LFSR.sv 
+# -- Compiling module LFSR
+# 
+# Top level modules:
+# 	LFSR
+# End time: 15:07:09 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:09 on Nov 18,2022
+# vlog -reportprogress 300 ./counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 15:07:10 on Nov 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:07:10 on Nov 18,2022
+# vlog -reportprogress 300 ./ram32x4port2.v 
+# -- Compiling module ram32x4port2
+# 
+# Top level modules:
+# 	ram32x4port2
+# End time: 15:07:10 on Nov 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 15:07:10 on Nov 18,2022
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 151
+# End time: 15:58:39 on Nov 18,2022, Elapsed time: 0:51:29
+# Errors: 0, Warnings: 0
