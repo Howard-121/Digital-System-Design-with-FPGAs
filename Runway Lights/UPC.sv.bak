@@ -1,0 +1,16 @@
+
+module UPC(discounted, stolen, upc, mark);
+input logic mark;
+input logic [2:0] upc;
+output logic discounted, stolen;
+
+always_comb
+begin
+	// discounted signal
+	LEDR[0] = SW[8]|(SW[9]&SW[7]); 
+	
+	// stolen signal
+	LEDR[1] = (SW[9]|~SW[7])&~SW[8]&~SW[0];
+end
+
+endmodule
