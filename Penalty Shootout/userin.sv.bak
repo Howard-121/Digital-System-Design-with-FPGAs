@@ -1,0 +1,10 @@
+module userin(in, out, clk, reset);
+input logic in, clk, reset;
+output logic out;
+
+enum {nopress, press} ps, ns;
+
+
+
+
+endmodule

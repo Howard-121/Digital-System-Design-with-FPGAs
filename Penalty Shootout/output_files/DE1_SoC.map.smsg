@@ -1,0 +1,11 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (10281): Verilog HDL Declaration information at DE1_SoC.sv(116): object "left" differs only in case from object "Left" in the same scope File: C:/Digital System Design with FPGAs/Final Project/project/DE1_SoC.sv Line: 116
+Info (10281): Verilog HDL Declaration information at DE1_SoC.sv(116): object "right" differs only in case from object "Right" in the same scope File: C:/Digital System Design with FPGAs/Final Project/project/DE1_SoC.sv Line: 116
+Info (10281): Verilog HDL Declaration information at DE1_SoC.sv(116): object "shoot" differs only in case from object "Shoot" in the same scope File: C:/Digital System Design with FPGAs/Final Project/project/DE1_SoC.sv Line: 116
+Warning (10273): Verilog HDL warning at seg7.sv(69): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 69
+Warning (10273): Verilog HDL warning at seg7.sv(70): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 70
+Warning (10273): Verilog HDL warning at seg7.sv(71): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 71
+Warning (10273): Verilog HDL warning at seg7.sv(72): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 72
+Warning (10273): Verilog HDL warning at seg7.sv(73): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 73
+Warning (10273): Verilog HDL warning at seg7.sv(74): extended using "x" or "z" File: C:/Digital System Design with FPGAs/Final Project/project/seg7.sv Line: 74
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(92) has no driver File: C:/Digital System Design with FPGAs/Final Project/project/DE1_SoC.sv Line: 92

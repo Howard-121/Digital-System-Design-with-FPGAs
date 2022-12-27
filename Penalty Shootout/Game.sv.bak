@@ -1,0 +1,11 @@
+module Game(clk, RST, RedPixels, GrnPixels, shoot, left, right, score);
+
+input logic               RST, clk, shoot, left, right;
+output logic [15:0][15:0] RedPixels; // 16x16 array of red LEDs
+output logic [15:0][15:0] GrnPixels; // 16x16 array of green LEDs
+output logic [2:0] score;
+
+
+
+
+endmodule
