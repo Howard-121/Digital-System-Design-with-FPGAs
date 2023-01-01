@@ -11,7 +11,7 @@ Moreover, the names of the six items that I made will also be shown on the Hex d
 
 
 
-![Table 1: Six Items](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/UPC%20Check/Images/new%20items.png | width=500 height=300)
+![Table 1: Six Items](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/UPC%20Check/Images/new%20items.png | width=300 height=150)
 Table 1: Six Items
 
 
