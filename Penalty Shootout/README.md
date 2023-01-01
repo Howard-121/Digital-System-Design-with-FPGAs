@@ -36,20 +36,26 @@ If the red light touches the goal, it indicates a successful goal.
 
 
 <p align = "center">
-<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_state%20diagram.png" width="600" height="600" />
+<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_state%20diagram.png" width="500" height="500" />
 <p align = "center">
 Figure 1: State Diagram
 
 
 
 <p align = "center">
-<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_block%20diagram.png" width="700" height="500" />
+<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_block%20diagram.png" width="700" height="400" />
 <p align = "center">
 Figure 2: Block Diagram
 
 
 
 Results:
+
+In Figure3, player_x shows the play moves right by two units and move left by one unit. 
+Then, it kicks the ball, so player_y keeps decreasing until it touches the goalkeeper. 
+It doesn’t score in the first try. However, for its second shot shown in figure4, 
+the ball successfully passes through so HEX0 (score) turns one.
+
 
 ![Simulation1](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_1.png)
 ![Simulation2](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Penalty%20Shootout/Images/shootout_2.png)
