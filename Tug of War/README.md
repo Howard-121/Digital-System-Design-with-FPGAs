@@ -15,11 +15,16 @@ the HEX0.
 
 
 
-![Figure 1: Block Diagram of the Entire System](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Tug%20of%20War/Images/tug%20of%20war%20block%20diagram.jpg)
+<p align = "center">
+<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Tug%20of%20War/Images/tug%20of%20war%20block%20diagram.jpg" width="600" height="600" />
+<p align = "center">
 Figure 1: Block Diagram of the Entire System
 
 
-![Figure 2: Block Diagram of Playfield](https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Tug%20of%20War/Images/playfield%20block%20diagram.jpg)
+
+<p align = "center">
+<img src="https://github.com/Howard-121/Digital-System-Design-with-FPGAs/blob/master/Tug%20of%20War/Images/playfield%20block%20diagram.jpg" width="600" height="600" />
+<p align = "center">
 Figure 2: Block Diagram of Playfield
 
 
